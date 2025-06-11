@@ -7,6 +7,7 @@
 ```bash
 Python 3.6+
 pip install pandas matplotlib seaborn scikit-learn
+```
 
 ## 核心算法
 
@@ -38,13 +39,14 @@ y_pred = model.predict(X_test)
 
 ## 参数配置
 
-参数	类型	默认值	说明
-test_size	float	0.2	测试集比例
-random_state	int	0	随机种子
-font_family	str	'Heiti TC'	中文字体
+参数	             类型	   默认值	    说明
+test_size	     float	   0.2	        测试集比例
+random_state	 int	   0	        随机种子
+font_family	     str	   'Heiti TC'	中文字体
 
 
 ## 常见问题
+
 中文显示乱码？
 
 确保系统安装黑体字体
